@@ -84,6 +84,6 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure App Service Deploy: website'
             inputs:
-              azureSubscription: 'Free Trial'
+              azureSubscription: 'Salma-Release'
               appName: '$(tailspinspacegame)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
