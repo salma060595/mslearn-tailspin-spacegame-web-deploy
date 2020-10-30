@@ -92,5 +92,5 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'Salma-Release'
-              appName: 'tailspin-space-game-web-dev-17638'
+              appName: 'tailspin-space-game-web-dev'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
